@@ -19,3 +19,7 @@ while True:
         print("桃子数：", peach)
         break
     peach += 1
+
+# 1. 计算1+2+3+...+100的和
+
+
