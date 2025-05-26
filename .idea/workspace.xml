@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7faba04a-0415-4d03-9104-6231e92c1a47" name="更改" comment="" />
+    <list default="true" id="7faba04a-0415-4d03-9104-6231e92c1a47" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,7 @@
   "keyToString": {
     "Python.code5-7-九九乘法表.executor": "Run",
     "Python.code7-5-简易计算器.executor": "Run",
+    "Python.code9-2-package.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -86,6 +89,8 @@
       <updated>1745164385161</updated>
       <workItem from="1745164386270" duration="62000" />
       <workItem from="1748017775333" duration="386000" />
+      <workItem from="1748270905442" duration="47000" />
+      <workItem from="1748270954004" duration="755000" />
     </task>
     <servers />
   </component>
@@ -94,6 +99,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$code7_5_.coverage" NAME="code7-5-简易计算器 覆盖结果" MODIFIED="1748017880088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章" />
-    <SUITE FILE_PATH="coverage/Python$code5_7_.coverage" NAME="code5-7-九九乘法表 覆盖结果" MODIFIED="1748017849951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
+    <SUITE FILE_PATH="coverage/Python$code9_2_package.coverage" NAME="code9-2-package 覆盖结果" MODIFIED="1748271077757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
+    <SUITE FILE_PATH="coverage/Python$code5_7_.coverage" NAME="code5-7-九九乘法表 覆盖结果" MODIFIED="1748270965320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
   </component>
 </project>
