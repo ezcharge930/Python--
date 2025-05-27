@@ -1,4 +1,4 @@
-import random
+import random,re,time
 
 a = []
 n = 5
@@ -25,4 +25,23 @@ def main():
     for i in range(20):
         a.append(random_string(random.randint(3,6)))
     print(a)
+
+def is_phone_number(phone):
+    # 手机号码
+    result = re.match(r'^1\d{10}$',phone)
+    if result == None:
+        return '手机号码格式错误'
+    else :
+        return '手机号码格式正确'
     
+def is_id_number(ids):
+    result = re.match(r'^\d{6}((20[012][012345])|(19\d\d))d{7}[\dX]$','ids')
+    if result == None:
+        return '身份证号码格式错误'
+    else:
+        return '身份证号码格式正确'
+    
+def get_time():
+    t = time.localtime()
+    s = time.strftime('%Y-%m-%d %H:%M:%S',t)
+    return s
