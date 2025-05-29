@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7faba04a-0415-4d03-9104-6231e92c1a47" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/my_package/my_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_package/my_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Python学习.executor": "Run",
+    "Python.code10-1-文件读取.executor": "Run",
     "Python.code5-7-九九乘法表.executor": "Run",
     "Python.code7-5-简易计算器.executor": "Run",
     "Python.code9-2-package.executor": "Run",
@@ -44,7 +46,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="code5-7-九九乘法表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python学习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,7 +60,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第5章/code5-7-九九乘法表.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.code5-7-九九乘法表" />
+        <item itemvalue="Python.Python学习" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +96,7 @@
       <workItem from="1748270905442" duration="47000" />
       <workItem from="1748270954004" duration="755000" />
       <workItem from="1748364361681" duration="52000" />
+      <workItem from="1748529034429" duration="938000" />
     </task>
     <servers />
   </component>
@@ -104,6 +107,8 @@
     <SUITE FILE_PATH="coverage/Python$code7_5_.coverage" NAME="code7-5-简易计算器 覆盖结果" MODIFIED="1748017880088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章" />
     <SUITE FILE_PATH="coverage/Python$code9_2_package.coverage" NAME="code9-2-package 覆盖结果" MODIFIED="1748271077757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
     <SUITE FILE_PATH="coverage/Python$code9_8_client.coverage" NAME="code9-8-client 覆盖结果" MODIFIED="1748364383026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
+    <SUITE FILE_PATH="coverage/Python$Python.coverage" NAME="Python学习 覆盖结果" MODIFIED="1748529096159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
+    <SUITE FILE_PATH="coverage/Python$code10_1_.coverage" NAME="code10-1-文件读取 覆盖结果" MODIFIED="1748529110509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第10章" />
     <SUITE FILE_PATH="coverage/Python$code5_7_.coverage" NAME="code5-7-九九乘法表 覆盖结果" MODIFIED="1748270965320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
     <SUITE FILE_PATH="coverage/Python$code9_7_server.coverage" NAME="code9-7-server 覆盖结果" MODIFIED="1748364376496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
   </component>
