@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7faba04a-0415-4d03-9104-6231e92c1a47" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第10章/code10-6-csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/第10章/code10-6-csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第10章/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/第10章/data.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,7 @@
   "keyToString": {
     "Python.Python学习.executor": "Run",
     "Python.code10-1-文件读取.executor": "Run",
+    "Python.code10-6-csv.executor": "Run",
     "Python.code5-7-九九乘法表.executor": "Run",
     "Python.code7-5-简易计算器.executor": "Run",
     "Python.code9-2-package.executor": "Run",
@@ -97,6 +100,7 @@
       <workItem from="1748270954004" duration="755000" />
       <workItem from="1748364361681" duration="52000" />
       <workItem from="1748529034429" duration="938000" />
+      <workItem from="1748876095265" duration="1292000" />
     </task>
     <servers />
   </component>
@@ -111,5 +115,6 @@
     <SUITE FILE_PATH="coverage/Python$code10_1_.coverage" NAME="code10-1-文件读取 覆盖结果" MODIFIED="1748529110509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第10章" />
     <SUITE FILE_PATH="coverage/Python$code5_7_.coverage" NAME="code5-7-九九乘法表 覆盖结果" MODIFIED="1748270965320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
     <SUITE FILE_PATH="coverage/Python$code9_7_server.coverage" NAME="code9-7-server 覆盖结果" MODIFIED="1748364376496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
+    <SUITE FILE_PATH="coverage/Python$code10_6_csv.coverage" NAME="code10-6-csv 覆盖结果" MODIFIED="1748876437889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第10章" />
   </component>
 </project>
