@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7faba04a-0415-4d03-9104-6231e92c1a47" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/第11章/code11-7-继承.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第10章/code10-6-csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/第10章/code10-6-csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第10章/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/第10章/data.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -30,6 +39,7 @@
     "Python.Python学习.executor": "Run",
     "Python.code10-1-文件读取.executor": "Run",
     "Python.code10-6-csv.executor": "Run",
+    "Python.code11-7-继承.executor": "Run",
     "Python.code5-7-九九乘法表.executor": "Run",
     "Python.code7-5-简易计算器.executor": "Run",
     "Python.code9-2-package.executor": "Run",
@@ -100,7 +110,8 @@
       <workItem from="1748270954004" duration="755000" />
       <workItem from="1748364361681" duration="52000" />
       <workItem from="1748529034429" duration="938000" />
-      <workItem from="1748876095265" duration="1292000" />
+      <workItem from="1748876095265" duration="1888000" />
+      <workItem from="1749392954088" duration="1535000" />
     </task>
     <servers />
   </component>
