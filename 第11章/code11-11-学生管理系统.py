@@ -30,10 +30,20 @@ class Student(User):
     # 属性：姓名、年龄、性别、学号
     def __init__(self,name,age,gender,id_number):
         super().__init__(name,age,gender,id_number)
+        self.courses = []
         
     def show_infos(self): # 显示学生信息
         super().show_infos()
-        
+        print('该学生的选课信息：')
+        if self.courses == []:
+            print('未选课')
+        else:
+            for i in self.courses:
+                print(i.name)
+        print('*'*15+'学生信息'+'*'*15)
+    
+    def add_course(self,course):
+        self.courses.append(course)
 
 class Teacher(User):
     # 属性：性别、年龄、性别、工号、是否是导员、班级列表
@@ -91,24 +101,108 @@ class Cla(object): # 班级
 
 
 
-class Course(object):
-    pass
+class Course(object): # 课程
+    # 属性：课名、课程id、老师、学生列表、课程性质、课程容量
+    courses = [] # 类属性
+    def __init__(self,name,id_number,teacher,students,type,number):
+        self._name = name
+        self.id_number = id_number
+        self.teacher = teacher
+        self.students = students
+        self.type = type
+        self.number = number
+        self.student_number = len(self.students)
+        self.valid_number = self.number - self.student_number
+        Course.courses.append(self.name)
+        
+    def show_infos(self):
+        print('*'*15+'班级信息'+'*'*15)
+        print('课程名称:%s'%self.name)
+        print('课程号:%s'%self.id_number)
+        print('授课老师:%s'%self.teacher.name)
+        print(self.type)
+        print('课程容量:%d'%self.number)
+        print('已选学生人数:%d'%self.student_number)
+        print('剩余学生人数:%d'%self.valid_number)
+        print('学生信息:')
+        if not self.students:
+            print('空')
+        else:
+            for i in self.students:
+                print(i.name)
+        print('*'*15+'班级信息'+'*'*15)
+    
+    def add_students(self,student):
+        if student in self.students:
+            raise Exception('学生重复')
+        if self.valid_number == 0:
+            raise Exception('此课程已满，请选择别的课程')
+        self.students.append(student)
+        self.valid_number -= 1
+        self.student_number += 1
+        student.add_course(self)
+        return True
+    
+    def sub_student(self,student):
+        if student not in self.students:
+            raise Exception('此学生未报名')
+        self.students.remove(student)
+        self.valid_number += 1
+        self.student_number -= 1
+        return True
+    
+    @property
+    def name(self):
+        return self._name
+    
+    @name.setter
+    def name(self,name):
+        if name == '':
+            raise Exception('出现错误')
+        elif not isinstance(name, str):
+            raise Exception('出现错误')
+        self._name = name
+            
+    
+    @classmethod
+    def show_courseList(cls):
+        return cls.courses
 
+# 创建学生对象
 mia = Student('mia',19,'女',1)
 rose = Student('rose',20,'女',2)
+lily = Student('lily',18,'女',3)
 mia.show_infos()
+
+# 创建教师对象
 jack = Teacher('jack','50','男',5,False,[])
 jack.show_infos()
 tom = Teacher('tom',26,'女',53,True,['计算机二班','法律三班'])
 tom.show_infos()
+
+# 创建班级对象
 computer_2 = Cla('计算机二班',1002,tom,[])
 
 computer_1 = Cla('计算机一班',1001,tom,[mia])
 computer_1.show_infos()
 computer_2.add_student(rose)
-computer_2.add_student(rose)
-computer_2.show_infos()
-computer_2.sub_student(rose)
-computer_2.show_infos()
+# computer_2.add_student(rose)
+# computer_2.show_infos()
+# computer_2.sub_student(rose)
+# computer_2.show_infos()
+
+# 创建课程对象
+python = Course('python',1,jack,[mia,rose],'必修课',6)
+java = Course('java',2,tom,[mia,rose],'选修课',4)
+python.show_infos()
+python.add_students(lily)
+python.sub_student(mia)
+python.show_infos()
+lily.show_infos()
+print(Course.show_courseList())
+
+# python.name = 'python精讲课程'
+print(python.name)
+
 
 
