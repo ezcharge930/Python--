@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7faba04a-0415-4d03-9104-6231e92c1a47" name="更改" comment="20250608的学习内容" />
+    <list default="true" id="7faba04a-0415-4d03-9104-6231e92c1a47" name="更改" comment="20250608的学习内容">
+      <change afterPath="$PROJECT_DIR$/record.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第13章/多人聊天室-客户端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第13章/多人聊天室-服务器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第13章/多人聊天室-客户端2.py" beforeDir="false" afterPath="$PROJECT_DIR$/第13章/多人聊天室-客户端2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,32 +37,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Python学习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code10-1-文件读取.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code10-6-csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code11-11-学生管理系统.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code11-7-继承.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code11-9-封装.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code5-7-九九乘法表.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code7-5-简易计算器.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code9-2-package.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code9-7-server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code9-8-client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Python/Python学习&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Python学习.executor": "Run",
+    "Python.code10-1-文件读取.executor": "Run",
+    "Python.code10-6-csv.executor": "Run",
+    "Python.code11-11-学生管理系统.executor": "Run",
+    "Python.code11-7-继承.executor": "Run",
+    "Python.code11-9-封装.executor": "Run",
+    "Python.code5-7-九九乘法表.executor": "Run",
+    "Python.code7-5-简易计算器.executor": "Run",
+    "Python.code9-2-package.executor": "Run",
+    "Python.code9-7-server.executor": "Run",
+    "Python.code9-8-client.executor": "Run",
+    "Python.多人聊天室-客户端.executor": "Run",
+    "Python.多人聊天室-服务器.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Python/Python学习/第13章",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Python学习\第13章" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Python学习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python学习" />
@@ -112,7 +125,7 @@
       <workItem from="1748876095265" duration="1888000" />
       <workItem from="1749392954088" duration="5724000" />
       <workItem from="1749403181988" duration="15000" />
-      <workItem from="1749654649784" duration="337000" />
+      <workItem from="1749654649784" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="20250608的学习内容">
       <option name="closed" value="true" />
@@ -133,16 +146,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="20250608的学习内容" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$code11_7_.coverage" NAME="code11-7-继承 覆盖结果" MODIFIED="1749395531764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第11章" />
-    <SUITE FILE_PATH="coverage/Python$code7_5_.coverage" NAME="code7-5-简易计算器 覆盖结果" MODIFIED="1748017880088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章" />
     <SUITE FILE_PATH="coverage/Python$code9_2_package.coverage" NAME="code9-2-package 覆盖结果" MODIFIED="1748271077757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
-    <SUITE FILE_PATH="coverage/Python$code9_8_client.coverage" NAME="code9-8-client 覆盖结果" MODIFIED="1748364383026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
-    <SUITE FILE_PATH="coverage/Python$Python.coverage" NAME="Python学习 覆盖结果" MODIFIED="1748529096159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
     <SUITE FILE_PATH="coverage/Python$code10_1_.coverage" NAME="code10-1-文件读取 覆盖结果" MODIFIED="1748529110509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第10章" />
-    <SUITE FILE_PATH="coverage/Python$code11_9_.coverage" NAME="code11-9-封装 覆盖结果" MODIFIED="1749399465887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第11章" />
     <SUITE FILE_PATH="coverage/Python$code5_7_.coverage" NAME="code5-7-九九乘法表 覆盖结果" MODIFIED="1748270965320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
     <SUITE FILE_PATH="coverage/Python$code11_11_.coverage" NAME="code11-11-学生管理系统 覆盖结果" MODIFIED="1749402832431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第11章" />
     <SUITE FILE_PATH="coverage/Python$code9_7_server.coverage" NAME="code9-7-server 覆盖结果" MODIFIED="1748364376496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
+    <SUITE FILE_PATH="coverage/Python$code11_7_.coverage" NAME="code11-7-继承 覆盖结果" MODIFIED="1749395531764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第11章" />
+    <SUITE FILE_PATH="coverage/Python$code7_5_.coverage" NAME="code7-5-简易计算器 覆盖结果" MODIFIED="1748017880088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章" />
+    <SUITE FILE_PATH="coverage/Python$code9_8_client.coverage" NAME="code9-8-client 覆盖结果" MODIFIED="1748364383026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第9章" />
+    <SUITE FILE_PATH="coverage/Python$Python.coverage" NAME="Python学习 覆盖结果" MODIFIED="1748529096159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章" />
+    <SUITE FILE_PATH="coverage/Python$code11_9_.coverage" NAME="code11-9-封装 覆盖结果" MODIFIED="1749399465887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第11章" />
+    <SUITE FILE_PATH="coverage/Python$_.coverage" NAME="多人聊天室-客户端 覆盖结果" MODIFIED="1749655131586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第13章" />
     <SUITE FILE_PATH="coverage/Python$code10_6_csv.coverage" NAME="code10-6-csv 覆盖结果" MODIFIED="1748876437889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第10章" />
   </component>
 </project>
